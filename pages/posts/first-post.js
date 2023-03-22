@@ -7,6 +7,7 @@ export default function FirstPost() {
     <>
       <Head>
         <title>First Post</title>
+      </Head>
         <Script
         src="https://connect.facebook.net/en_US/sdk.js"
         strategy="lazyOnload"
@@ -14,7 +15,6 @@ export default function FirstPost() {
           console.log(`script loaded correctly, window.FB has been populated`)
         }
         />
-      </Head>
       <h1>First Post</h1>
       <h2>
         <Link href="/">← Back to home</Link>
