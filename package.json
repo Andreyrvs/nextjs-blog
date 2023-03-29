@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "clsx": "^1.2.1",
@@ -16,6 +17,10 @@
     "remark-html": "^15.0.2"
   },
   "devDependencies": {
-    "@types/node": "^18.15.11"
+    "@types/node": "^18.15.11",
+    "@types/react": "18.0.31",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.2.4",
+    "typescript": "5.0.2"
   }
 }
