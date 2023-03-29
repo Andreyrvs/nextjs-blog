@@ -14,6 +14,10 @@ export default function Post({
     contentHtml: string
   }
 }) {
+  const a = postData.contentHtml
+
+
+  console.log(a)
   return (
     <Layout>
       <Head>
