@@ -20,8 +20,15 @@ export default function Home({
   }[]
 }) {
   return (
+    <div className={`${utilStyles.headingMd} ${utilStyles.padding1px}`} style={{display: "flex", maxWidth: "40rem"}}>
+      <ul>
+        <li>Sobre</li>
+        <li>Blog</li>
+        <li>Contato</li>
+      </ul>
     <Layout home>
-      <Head>
+ 
+     <Head>
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
@@ -47,6 +54,7 @@ export default function Home({
         </ul>
       </section>
     </Layout>
+    </div>
   )
 }
 
